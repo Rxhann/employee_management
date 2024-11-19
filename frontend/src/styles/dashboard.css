@@ -1,0 +1,86 @@
+/* Button Group Styling */
+.button-group {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.button-group button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.button-group button:hover {
+  background-color: #45a049;
+}
+
+/* Dashboard container */
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Content styling for Dashboard */
+.dashboard-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.dashboard-item {
+  width: 30%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.dashboard-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.dashboard-item p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.dashboard-item button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.dashboard-item button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Styling (if needed) */
+.dashboard-footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+}
